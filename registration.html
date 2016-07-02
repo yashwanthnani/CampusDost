@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>CampusDost - Registration</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/login.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE]><link rel="stylesheet" href="assets/css/ie.css" /><![endif]-->
+	<script type="text/javascript" src="js/jquery1.min.js"></script>
+
+<script type="text/javascript" >
+$(document).ready(function()
+{
+$("#notificationLink").click(function()
+{
+$("#notificationContainer").fadeToggle(300);
+$("#notification_count").fadeOut("slow");
+return false;
+});
+
+//Document Click
+$(document).click(function()
+{
+$("#notificationContainer").hide();
+});
+//Popup Click
+$("#notificationContainer").click(function()
+{
+return false
+});
+
+});
+</script>
+</head>
+	<body>
+<script>
+function replaceContentInContainer(target, source) {
+      document.getElementById(target).innerHTML = document.getElementById(source).innerHTML;
+   }
+</script>
+		<!-- Header -->
+			<header id="header">
+				<h1>Registration</h1>
+				<p>Please Register to start using CampusDost.</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form" method="post" action="#">
+				<input type="text" name="fname" id="fname" placeholder="First Name" required/>
+				<input type="text" name="lname" id="lname" placeholder="Last Name" required/>
+
+				<input type="email" name="email" id="email" placeholder="Email Address" required/>
+				<input type="text" name="mobile" id="mobile" placeholder="Mobile Number" required/>
+				<input type="password" name="password" id="password" placeholder="Password" required />
+				<input type="password" name="password1" id="password1" placeholder="Confirm Password" required />
+				<div class="dob">Date of birth : <input type="date" class="form-control" ><br></div>
+				<div class="radio1">
+					Gender:
+
+			  <label>
+			    <input type="radio" name="optionsRadios" id="male" value="option1" checked>
+			    Male<br>
+					<input type="radio" name="optionsRadios" id="female" value="option2">
+					Female
+			  </label>
+			</div>
+
+				<input type="submit" value="Sign Up" />
+			</form>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+			</footer>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

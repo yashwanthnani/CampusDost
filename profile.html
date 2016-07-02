@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Campus Dost - Profile</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,400italic,600,300italic,300|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+
+		<link href="css/style.css" rel="stylesheet">
+    <!-- CSS  -->
+     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+     <!-- Font Awesome -->
+     <link href="css/font-awesome.css" rel="stylesheet">
+     <!-- Skill Progress Bar -->
+     <link href="css/pro-bars.css" rel="stylesheet" type="text/css" media="all" />
+     <!-- Owl Carousel -->
+     <link rel="stylesheet" href="css/owl.carousel.css">
+		 <!-- Default Theme CSS File-->
+		 <link id="switcher" href="css/themes/default-theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		 <!-- Theme Switcher -->
+		 <link rel="stylesheet" href="css/theme-switcher.css">
+		    <!-- Main css File -->
+     <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+     <!-- Font -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine3/style.css" />
+    <script type="text/javascript" src="engine3/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+		<script type="text/javascript" >
+		$(document).ready(function()
+		{
+		$("#notificationLink").click(function()
+		{
+		$("#notificationContainer").fadeToggle(300);
+		$("#notification_count").fadeOut("slow");
+		return false;
+		});
+
+		//Document Click
+		$(document).click(function()
+		{
+		$("#notificationContainer").hide();
+		});
+		//Popup Click
+		$("#notificationContainer").click(function()
+		{
+		return false
+		});
+
+		});
+		</script>
+  </head>
+  <body data-spy="scroll" data-target=".main-nav">
+    <!-- BEGAIN PRELOADER -->
+		<div class="theme_style_switcher">
+		        <div class="style-switch-button">
+		          <i class="fa fa-cog fa-spin"></i>
+		        </div>
+		        <h4>Change Theme </h4>
+		        <a id="default" href="#" title="Default Color"></a>
+		        <a id="blue" href="#" title="blue"></a>
+		        <a id="red" href="#" title="Red"></a>
+		        <a id="bridge" href="#" title="Bridge"></a>
+		        <a id="green" href="#" title="Green"></a>
+		        <a id="liteBlue" href="#" title="Lite Blue"></a>
+		        <a id="orange" href="#" title="Orange"></a>
+		        <a id="pink" href="#" title="Pink"></a>
+		        <a id="darkRed" href="#" title="Dark Red"></a>
+		        <a id="yellow" href="#" title="Yellow"></a>
+		      </div>
+    <!-- END PRELOADER -->
+
+    <header class="st-navbar">
+      <nav class="navbar navbar-default navbar-fixed-top clearfix" role="navigation">
+        <div class="container1"><!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sept-main-nav">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="photos/logo3.png" alt="" class="img-responsive"></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse main-nav" id="sept-main-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li ><a href="index.html">Home</a></li>
+              <li><a href="index.html#home">Course Catalogue</a></li>
+              <li><a href="placements.html">Placements</a></li>
+              <li><a href="#">Moodle</a></li>
+              <li><a href="contact.html">About Us</a></li>
+              <li class="active"><a href="#home">Profile</a></li>
+							<li id="notification_li">
+							<a href="#" id="notificationLink"><i class="fa fa-bell-o"></i>
+								<span id="notification_count">3</span>
+							 	</a>
+							<div id="notificationContainer">
+							<div id="notificationTitle">Notifications</div>
+							<div id="notificationsBody" class="notifications">
+								<div id="notificationsBodyin">
+									<a href="#">New video content loaded!</a>
+								</div>
+								<div id="notificationsBodyin">
+									<a href="#">Updated list of colleges!</a>
+								</div>
+								<div id="notificationsBodyin">
+									<a href="#">Moodle - 3 Courses added!</a>
+								</div>
+								<div id="notificationsBodyin">
+									<a href="#">4 Friends joined CD!</a>
+								</div>
+								<div id="notificationsBodyin">
+									<a href="#">New video content loaded!</a>
+								</div>
+								<div id="notificationsBodyin">
+									<a href="#">Video Section updated</a>
+								</div>
+								<div id="notificationsBodyin">
+									<a href="#">New video content loaded!</a>
+								</div>
+							</div>
+							<div id="notificationFooter"><a href="#">See All</a></div>
+							</div>
+							</li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </nav>
+    </header>
+    <div class="main-wrapper">
+        <main role="main">
+          <!-- START HOME SECTION -->
+          <section id="home">
+            <div class="overlay-section">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 dt">
+                    <div class="home-inner">
+                      <h1 class="home-title">HI! I'm <span>John Doe</span></h1>
+                      <p>I'm a USA based UX/UI Designer creating awesome and effective visual identities for companies of all sizes around the globe</p>
+											<img src="images/blacknwite.png" class="usertype">
+                      <!-- Call to About Button -->
+                      <button class="btn btn-floating waves-effect waves-light btn-large white call-to-about"><i class="material-icons">play_for_work</i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- START ABOUT SECTION -->
+          <section id="about">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 ">
+                  <div class="about-inner">
+                    <div class="row">
+                      <div class="col s12 m4 l3">
+                        <div class="about-inner-left">
+                          <img class="profile-img" src="img/profile-img1.jpg" alt="Profile Image">
+                        </div>
+                      </div>
+                      <div class="col s12 m8 l9">
+												<div class="container">
+										  <!-- Trigger the modal with a button -->
+										  <button type="button" class="btn btn-info btn-lg modalmob" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+										  <!-- Modal -->
+										  <div class="modal fade" id="myModal" role="dialog">
+										    <div class="modal-dialog">
+
+										      <!-- Modal content-->
+										      <div class="modal-content">
+										        <div class="modal-header">
+										          <button type="button" class="close" data-dismiss="modal">&times;</button>
+										          <h4 class="modal-title">Modal Header</h4>
+										        </div>
+										        <div class="modal-body">
+										          <p>Some text in the modal.</p>
+										        </div>
+										        <div class="modal-footer">
+										          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										        </div>
+										      </div>
+
+										    </div>
+										  </div>
+											<p class="modalmob"> Try This >></p>
+										</div>
+
+
+                        <div class="about-inner-right">
+                          <h3>About Me</h3>
+                          <p>I'm a USA based UX/UI Designer creating awesome and effective visual identities for companies of all sizes around the globe.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here</p>
+                          <div class="personal-information col s12 m12 l6">
+                            <h3>Personal Information</h3>
+                            <ul>
+                              <li><span>Name : </span>John Doe </li>
+                              <li><span>Age : </span>26 Years</li>
+                              <li><span>Phone : </span>+01254689</li>
+                              <li><span>Email : </span>John@gmail.com</li>
+                              <li><span>Address : </span>California,USA</li>
+                            </ul>
+                          </div>
+                          <div class="resume-download col s12 m12 l6">
+                            <a href="#" class="waves-effect waves-light btn-large resume-btn"><i class="mdi-content-archive left"></i> Download Resume</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Start Resume -->
+          <section id="resume">
+            <!-- Start Skill -->
+            <section id="skill">
+              <div class="container">
+                <div class="skill-inner">
+                  <h2 class="title">Skills</h2>
+                  <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+
+                  <!-- Start skills progress bar -->
+
+                  <div class="skill-progress-bar">
+                    <span>Html5</span>
+                    <div class="pro-bar-container color-wisteria">
+                      <div class="pro-bar bar-100 color-amethyst" data-pro-bar-percent="100"></div>
+                    </div>
+                    <span>css</span>
+                    <div class="pro-bar-container color-wisteria">
+                      <div class="pro-bar bar-90 color-amethyst" data-pro-bar-percent="90" data-pro-bar-delay="100"></div>
+                    </div>
+                    <span>Photoshop</span>
+                    <div class="pro-bar-container color-wisteria">
+                      <div class="pro-bar bar-80 color-amethyst" data-pro-bar-percent="80" data-pro-bar-delay="200"></div>
+                    </div>
+                    <span>Illustrator</span>
+                    <div class="pro-bar-container color-wisteria">
+                      <div class="pro-bar bar-70 color-amethyst" data-pro-bar-percent="70" data-pro-bar-delay="300"></div>
+                    </div>
+                    <span>Wordpress</span>
+                    <div class="pro-bar-container color-wisteria">
+                      <div class="pro-bar bar-60 color-amethyst" data-pro-bar-percent="60" data-pro-bar-delay="400"></div>
+                    </div>
+                    <span>jQuery</span>
+                    <div class="pro-bar-container color-wisteria">
+                      <div class="pro-bar bar-50 color-amethyst" data-pro-bar-percent="50" data-pro-bar-delay="500"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Start Experience -->
+            <section id="experience">
+              <div class="container">
+                <div class="experience-inner">
+                  <h2 class="title">Experience</h2>
+                  <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                  <div id="owl-carousel" class="experience-slider row">
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Windows Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Windows Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Android Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Android Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Start Single Experience -->
+
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Windows Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Windows Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Windows Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Windows Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Windows Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Windows Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Android Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Android Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Windows Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Windows Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Windows Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Windows Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">January 2013 - Present</h2>
+                          <img class="activator" src="img/office.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">UX/UI Designer<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">Windows Phone</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Windows Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- owl navigation -->
+                  <div class="customNavigation">
+                    <a class="btn prev btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+                    <a class="btn next btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Start Education -->
+            <section id="edcuation">
+              <div class="container">
+                <div class="education-inner">
+                  <h2 class="title">Education</h2>
+                  <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                  <div id="owl-carousel1" class="experience-slider row">
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">2012 - 2013</h2>
+                          <img class="activator" src="img/graduate-cap.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">Master Of Science<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">California University</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">Master Of Science<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">California University</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">2008 - 2012</h2>
+                          <img class="activator" src="img/graduate-cap.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">Bachelor Of Science<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">California University</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">Bachelor Of Science<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">California University</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">2006 - 2008</h2>
+                          <img class="activator" src="img/graduate-cap.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">A Level<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">California College</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">A Level<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">California College</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">2004 - 2006</h2>
+                          <img class="activator" src="img/graduate-cap.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">O Level<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">California School</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">UX/UI Designer<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">Windows Phone</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Start Single Experience -->
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                        <h2 class="experience-title">2001 - 2004</h2>
+                          <img class="activator" src="img/graduate-cap.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator reveal-title">Primary School<i class="material-icons right">more_vert</i></span>
+                          <p><a href="#">California School</a></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title reveal-title">Primary School<i class="material-icons right">close</i></span>
+                          <a href="#" class="card-subtitle">California School</a>
+                          <p>Here is some more information about this product that is only revealed once clicked on.
+                          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- owl navigation -->
+                  <div class="customNavigation">
+                    <a class="btn prev1 btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+                    <a class="btn next1 btn-floating waves-effect waves-light btn-large white"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+          <!-- Start Portfolio -->
+          <section id="portfolio">
+            <div class="portfolio-top">
+              <div class="container">
+                <div class="portfolio-top-inner">
+                   <h2 class="title">Portfolio</h2>
+                   <div class="controls">
+                    <button class="filter waves-effect waves-light btn" data-filter="all">All</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".html">HTMl</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".design">Design</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".fashion">Fashion</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="portfolio-bottom">
+              <div class="container">
+                <div class="portfolio-bottom-inner">
+                  <div id="portfolio-list">
+                    <div class="mix html" data-value="2">
+                      <a href="#">
+                        <img src="img/portfolio/html/html-2.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+                    <div class="mix fashion" data-value="4">
+                      <a href="#">
+                        <img src="img/portfolio/fashion/fashion-1.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+                    <div class="mix design" data-value="1">
+                      <a href="#">
+                        <img src="img/portfolio/design/design-1.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+                    <div class="mix html" data-value="5">
+                      <a href="#">
+                        <img src="img/portfolio/html/html-1.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+                    <div class="mix fashion" data-value="3">
+                      <a href="#">
+                        <img src="img/portfolio/fashion/fashion-2.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+                    <div class="mix design" data-value="9">
+                      <a href="#">
+                        <img src="img/portfolio/design/design-2.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+                    <div class="mix html" data-value="12">
+                      <a href="#">
+                        <img src="img/portfolio/html/html-3.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+                    <div class="mix fashion" data-value="7">
+                      <a href="#">
+                        <img src="img/portfolio/fashion/fashion-3.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+                    <div class="mix design" data-value="6">
+                      <a href="#">
+                        <img src="img/portfolio/design/design-3.jpg" alt="img">
+                        <i class="material-icons view-icon">pageview</i>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Start Facts -->
+    <!-- Start Blog -->
+          <section id="blog">
+            <div class="container">
+              <div class="row">
+               <div class="col s12">
+                 <div class="blog-inner">
+                   <h2 class="title">Blog</h2>
+                   <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+
+                  <!-- Start Blog area -->
+                  <div class="blog-area">
+                    <div class="row">
+                      <!-- Start single blog post -->
+                      <div class="col s12 m4 l4">
+                        <div class="blog-post">
+                          <div class="card">
+                            <div class="card-image">
+                              <img src="img/blog1.jpg">
+                            </div>
+                            <div class="card-content blog-post-content">
+                              <h2><a href="blog-single.html">Awesome Post Title</a></h2>
+                              <div class="meta-media">
+                                <div class="single-meta">
+                                  Post By <a href="#">Admin</a>
+                                </div>
+                                <div class="single-meta">
+                                  Category : <a href="#">Web/Design</a>
+                                </div>
+                              </div>
+                              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+                            </div>
+                            <div class="card-action">
+                              <a class="post-comment" href="#"><i class="material-icons">comment</i><span>15</span></a>
+                              <a class="readmore-btn" href="blog-single.html">Read More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Start single blog post -->
+                      <div class="col s12 m4 l4">
+                        <div class="blog-post">
+                          <div class="card">
+                            <div class="card-image">
+                              <img src="img/blog2.jpg">
+                            </div>
+                            <div class="card-content blog-post-content">
+                              <h2><a href="blog-single.html">Awesome Post Title</a></h2>
+                              <div class="meta-media">
+                                <div class="single-meta">
+                                  Post By <a href="#">Admin</a>
+                                </div>
+                                <div class="single-meta">
+                                  Category : <a href="#">Web/Design</a>
+                                </div>
+                              </div>
+                              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+                            </div>
+                            <div class="card-action">
+                              <a class="post-comment" href="#"><i class="material-icons">comment</i><span>10</span></a>
+                              <a class="readmore-btn" href="blog-single.html">Read More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Start single blog post -->
+                      <div class="col s12 m4 l4">
+                        <div class="blog-post">
+                          <div class="card">
+                            <div class="card-image">
+                              <img src="img/blog3.jpg">
+                            </div>
+                            <div class="card-content blog-post-content">
+                              <h2><a href="blog-single.html">Awesome Post Title</a></h2>
+                              <div class="meta-media">
+                                <div class="single-meta">
+                                  Post By <a href="#">Admin</a>
+                                </div>
+                                <div class="single-meta">
+                                  Category : <a href="#">Web/Design</a>
+                                </div>
+                              </div>
+                              <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
+                            </div>
+                            <div class="card-action">
+                              <a class="post-comment" href="#"><i class="material-icons">comment</i><span>15</span></a>
+                              <a class="readmore-btn" href="blog-single.html">Read More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- All Post Button -->
+                    <a class="waves-effect waves-light btn-large allpost-btn" href="blog-archive.html">All Post</a>
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </section>
+					<section>
+						<footer class="site-footer">
+							<div class="container">
+								<div class="row">
+									<div class="">
+										&copy; <a href="https://www.campusdost.com">CampusDost</a> 2016.
+									</a>
+									</div>
+								</div>
+							</div>
+						</footer>
+					</section>
+        </main>
+      </div>
+			<!-- Start Footer -->
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="js/jquery.min.js"></script>
+
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/jquery.stellar.js"></script>
+      <script src="js/jquery.appear.js"></script>
+      <script src="js/jquery.nicescroll.min.js"></script>
+      <script src="js/jquery.ajaxchimp.min.js"></script>
+      <script src="js/script.js"></script>
+      <!-- Materialize js -->
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+     <!-- Skill Progress Bar -->
+     <script src="js/appear.min.js" type="text/javascript"></script>
+     <script src="js/pro-bars.min.js" type="text/javascript"></script>
+     <!-- Owl slider -->
+     <script src="js/owl.carousel.min.js"></script>
+     <!-- Mixit slider  -->
+     <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+     <!-- counter -->
+     <script src="js/waypoints.min.js"></script>
+     <script src="js/jquery.counterup.min.js"></script>
+		 <script src="js/theme-switcher.js"></script>
+
+     <!-- Custom Js -->
+     <script src="js/custom.js"></script>
+
+</body>
+</html>

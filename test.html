@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Test</title>
+  <link rel="stylesheet" href="css/pg.css">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/jquery1.min.js"></script>
+
+<script type="text/javascript" >
+$(document).ready(function()
+{
+$("#notificationLink").click(function()
+{
+$("#notificationContainer").fadeToggle(300);
+$("#notification_count").fadeOut("slow");
+return false;
+});
+
+//Document Click
+$(document).click(function()
+{
+$("#notificationContainer").hide();
+});
+//Popup Click
+$("#notificationContainer").click(function()
+{
+return false
+});
+
+});
+</script>
+</head>
+<body>
+  <div class="brod brd">
+  </div>
+  <div class="brod1 brd">
+    <img src="images/testbg.jpg" class="img-circle img1">
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>CampusDost</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/hover.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<script type="text/javascript" src="js/jquery1.min.js"></script>
+
+<script type="text/javascript" >
+$(document).ready(function()
+{
+$("#notificationLink").click(function()
+{
+$("#notificationContainer").fadeToggle(300);
+$("#notification_count").fadeOut("slow");
+return false;
+});
+
+//Document Click
+$(document).click(function()
+{
+$("#notificationContainer").hide();
+});
+//Popup Click
+$("#notificationContainer").click(function()
+{
+return false
+});
+
+});
+</script>
+</head>
+
+<body class="landing">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">CampusDost</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<!--<a href="#menu" class="menuToggle">
+							<span>Menu</span>
+						</a>-->
+						<div id="menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html">Generic</a></li>
+								<li><a href="index.html">Elements</a></li>
+								<li><a href="#">Sign Up</a></li>
+								<li><a href="#">Log In</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>CampusDost</h2>
+				<span class="tag-line-1"></span>
+				<span class="tag-line-2"></span>
+
+			<div class="btn-space">
+				<a class="fb-signup-btn btn th-btn-fb hvr-wobble-vertical "  href="registration.html"><i class="fa "></i>New User ?</a>
+				<a class="email-signup-btn btn th-btn-pri1green hvr-wobble-vertical" href="login.html"><i class="fa "></i>Login</a>
+			</div>
+
+			</div>
+			<!--<a href="#last" class="more scrolly"></a> -->
+			<!--<a href="#" class="trans">New user ? <strong>Login now.</strong></a>-->
+		</section>
+
+		<!-- Footer -->
+
+		<!--<div class="foo">
+			<ul>
+				<li>What's CampusDost?</li>
+				<li>For Business</li>
+				<li>Terms</li>
+				<li>Privacy</li>
+				<li>English</li>
+			</ul>
+		</div>
+
+
+		<!-- <section id="last">
+			<footer id="footer">
+				<ul class="icons">
+					<li>
+						<a href="#" class="icon fa-twitter">
+							<span class="label">Twitter</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-facebook">
+							<span class="label">Facebook</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-instagram">
+							<span class="label">Instagram</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-dribbble">
+							<span class="label">Dribbble</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="icon fa-envelope-o">
+							<span class="label">Email</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Indialive</li>
+					<li>Design: <a href="http://www.nucleustech.in">NUCLEUS</a></li>
+				</ul>
+		</section>
+		</footer> -->
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

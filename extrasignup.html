@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>CampusDost - SignUp</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/login.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE]><link rel="stylesheet" href="assets/css/ie.css" /><![endif]-->
+	<script type="text/javascript" src="js/jquery1.min.js"></script>
+
+<script type="text/javascript" >
+$(document).ready(function()
+{
+$("#notificationLink").click(function()
+{
+$("#notificationContainer").fadeToggle(300);
+$("#notification_count").fadeOut("slow");
+return false;
+});
+
+//Document Click
+$(document).click(function()
+{
+$("#notificationContainer").hide();
+});
+//Popup Click
+$("#notificationContainer").click(function()
+{
+return false
+});
+
+});
+</script>
+</head>
+	<body>
+<script>
+function replaceContentInContainer(target, source) {
+      document.getElementById(target).innerHTML = document.getElementById(source).innerHTML;
+   }
+</script>
+		<!-- Header -->
+			<header id="header">
+				<h1>SignUp</h1>
+				<p>Please signup to start using CampusDost.</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address" required/>
+				<input type="text" name="roll" id="roll" placeholder="Roll Number" required/>
+				<input type="password" name="password" id="password" placeholder="Password" required />
+				<input type="password" name="password1" id="password1" placeholder="Confirm Password" required />
+
+				<input type="submit" value="Sign Up" />
+			</form>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+			</footer>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
